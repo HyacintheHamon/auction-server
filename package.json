@@ -1,0 +1,33 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "dev": "env-cmd node index.js",
+    "seed": "env-cmd node seed",
+    "watch": "env-cmd nodemon index.js"
+  },
+  "dependencies": {
+    "async": "^3.1.1",
+    "bcrypt": "^3.0.8",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "date-fns": "^2.14.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.9.17",
+    "nodemailer": "^6.4.2",
+    "socket.io": "^2.3.0",
+    "validator": "^12.2.0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "env-cmd": "^10.1.0"
+  }
+}
